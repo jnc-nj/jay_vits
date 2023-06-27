@@ -24,7 +24,7 @@ ENTRYPOINT ["/bin/bash"]
 # wget https://huggingface.co/datasets/Plachta/sampled_audio4ft/resolve/main/VITS-Chinese/config.json -O ./configs/finetune_speaker.json
 
 # pip install --upgrade numpy
-# python VC_inference.py --model_dir ./OUTPUT_MODEL/G_35000.pth --config_dir ./configs/modified_finetune_speaker.json --share True
+# python VC_inference.py --model_dir ./OUTPUT_MODEL/G_25000.pth --config_dir ./configs/modified_finetune_speaker.json --share True
 
 # python scripts/video2audio.py
 # python scripts/denoise_audio.py
